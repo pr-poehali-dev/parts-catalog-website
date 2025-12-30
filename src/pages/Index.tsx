@@ -231,14 +231,10 @@ export default function Index() {
                 <p className="text-xl text-white/90">
                   Более 50 000 позиций в наличии. Быстрая доставка. Гарантия качества.
                 </p>
-                <div className="flex flex-col sm:flex-row gap-3 justify-center pt-4">
+                <div className="flex justify-center pt-4">
                   <Button size="lg" variant="secondary" className="bg-white text-brand-orange hover:bg-gray-100 font-bold">
                     <Icon name="Search" size={20} className="mr-2" />
                     Подобрать запчасти
-                  </Button>
-                  <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10">
-                    <Icon name="Phone" size={20} className="mr-2" />
-                    Связаться с нами
                   </Button>
                 </div>
               </div>
